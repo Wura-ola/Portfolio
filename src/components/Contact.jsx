@@ -11,15 +11,15 @@ export default function Contact() {
         <hr className="h-px my-4 bg-violet-500 border-0" />
         <div>
           <p className="my-3 ">
-            <span className="text-fuchsia-500">Phone:</span>
+            <span className="text-fuchsia-500 mr-3">Phone:</span>
             07065564902
           </p>
           <p className="my-3 ">
-            <span className="text-fuchsia-500">Address:</span>
-            07065564902
+            <span className="text-fuchsia-500 mr-3">Address:</span>
+            The Destiny Trust, Bogije Ibeju-Lekki, Lagos.
           </p>
           <p className="my-3 ">
-            <span className="text-fuchsia-500">Email:</span>
+            <span className="text-fuchsia-500 mr-3">Email:</span>
             olayitanfumi16@gmail.com
           </p>
         </div>

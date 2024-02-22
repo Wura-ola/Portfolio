@@ -11,10 +11,7 @@ function Projects() {
 
       <div className=" grid grid-cols-3 gap-4">
         <div>
-          <a
-            href="https://vercel.com/wura-ola/tdt-foods-master-master"
-            target="_blank"
-          >
+          <a href="https://tdt-foods-master-master.vercel.app/" target="_blank">
             <img src={Project1} alt="" />
           </a>
         </div>
