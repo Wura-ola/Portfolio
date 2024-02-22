@@ -11,22 +11,28 @@ function Projects() {
 
       <div className=" grid grid-cols-3 gap-4">
         <div>
-          <a href="https://vercel.com/wura-ola/tdt-foods-master-master">
+          <a
+            href="https://vercel.com/wura-ola/tdt-foods-master-master"
+            target="_blank"
+          >
             <img src={Project1} alt="" />
           </a>
         </div>
         <div>
-          <a href="https://interactive-comments-section-main-five.vercel.app/">
+          <a
+            href="https://interactive-comments-section-main-five.vercel.app/"
+            target="_blank"
+          >
             <img src={Project2} alt="" />
           </a>
         </div>
         <div>
-          <a href="https://lafiya.vercel.app/">
+          <a href="https://lafiya.vercel.app/" target="_blank">
             <img src={Project3} alt="" />
           </a>
         </div>
         <div className="mb-4">
-          <a href="https://form-seven-cyan.vercel.app/">
+          <a href="https://form-seven-cyan.vercel.app/" target="_blank">
             <img src={Project4} alt="" />
           </a>
         </div>
