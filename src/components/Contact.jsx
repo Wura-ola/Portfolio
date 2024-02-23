@@ -1,10 +1,11 @@
 import React from "react";
-
+import ME from "../assets/ME.svg";
 export default function Contact() {
   return (
-    <div className="py-5 px-32 flex justify-between items-center text-start gap-x-32 ">
-      <div>
-        <div className="w-72 h-72 bg-black"></div>
+    <div className="py-5 px-32 flex justify-between items-center text-start gap-x-30 ">
+      <div className="flex">
+        <div className="w-60 h-60 bg-black"></div>
+        <img src={ME} alt="" className="-m-36" />
       </div>
       <div>
         <h2 className="mb-2 text-xl"> Contact Details</h2>
@@ -16,7 +17,7 @@ export default function Contact() {
           </p>
           <p className="my-3 ">
             <span className="text-fuchsia-500 mr-3">Address:</span>
-            The Destiny Trust, Bogije Ibeju-Lekki, Lagos.
+            The Destiny Trust, Bogije Ibeju-Lekki, Lagos, Nigeria.
           </p>
           <p className="my-3 ">
             <span className="text-fuchsia-500 mr-3">Email:</span>
