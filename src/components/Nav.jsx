@@ -39,12 +39,12 @@ function Nav() {
           </li>
           <li>
             <a href="#" className="hover:text-fuchsia-500">
-              Portfolio
+              Projects
             </a>
           </li>
           <li>
             <a href="#" className="hover:text-fuchsia-500">
-              Contact
+              Contact Me
             </a>
           </li>
         </ul>
