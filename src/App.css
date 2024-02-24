@@ -35,7 +35,7 @@ button:hover {
 li {
   list-style: none;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 769px) {
   .mobile_menu {
     display: none;
   }
@@ -63,6 +63,7 @@ li {
     flex-direction: column;
   }
 }
+
 .gradient-text-violet {
   background: linear-gradient(to right, rgb(147, 54, 164), fuchsia);
   -webkit-background-clip: text;

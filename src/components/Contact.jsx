@@ -2,10 +2,10 @@ import React from "react";
 import ME from "../assets/ME.svg";
 export default function Contact() {
   return (
-    <div className="py-5 px-32 flex justify-between items-center text-start gap-x-30 ">
-      <div className="flex">
-        <div className="w-60 h-60 bg-black"></div>
-        <img src={ME} alt="" className="-m-36" />
+    <div className="py-5 lg:px-32 px-5 lg:flex lg:justify-between lg:items-center text-start gap-x-30 ">
+      <div className="flex mb-5">
+        <div className="w-60 h-72 bg-black"></div>
+        <img src={ME} alt="" className="-m-48 md:-m-36" />
       </div>
       <div>
         <h2 className="mb-2 text-xl"> Contact Details</h2>
