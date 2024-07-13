@@ -5,7 +5,7 @@ import Project3 from "../assets/Project3.jpg";
 import Project4 from "../assets/Project4.jpg";
 function Projects() {
   return (
-    <div className="py-5 lg:px-32 px-5">
+    <div className="py-5 lg:px-32 px-5" id="projects">
       <h2 className="mb-5 text-xl text-start">Recent Project</h2>
       <hr className="h-px my-4 bg-violet-500 border-0 w-1/2" />
 

@@ -8,7 +8,7 @@ export default function About() {
         <div className=" hidden md:w-52 md:h-72 md:bg-black"></div>
         <img src={ME} alt="" className="md:-m-0 -m-34" />
       </div>
-      <div>
+      <div id="about">
         <h2 className="mb-6 text-xl"> About Me</h2>
         <hr className="h-px my-8 bg-violet-500 border-0" />
         <p className="mb-6 lg:text-start text-12">

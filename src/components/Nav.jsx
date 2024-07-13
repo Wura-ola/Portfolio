@@ -71,7 +71,7 @@ function Nav() {
           </li>
           <li>
             <a
-              href="#"
+              href="#about"
               className="transition ease-in duration-300 hover:ease-out hover:text-fuchsia-500"
             >
               About
@@ -83,12 +83,12 @@ function Nav() {
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-fuchsia-500">
+            <a href="#projects" className="hover:text-fuchsia-500">
               Projects
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-fuchsia-500">
+            <a href="#contact" className="hover:text-fuchsia-500">
               Contact Me
             </a>
           </li>
