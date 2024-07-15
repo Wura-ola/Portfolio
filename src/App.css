@@ -6,14 +6,13 @@
   font-family: "Rubik", sans-serif;
 
   text-align: center;
-  background-color: black;
 }
 .header {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       rgba(222, 174, 222, 0.8),
       rgb(192, 72, 72, 0.8)
     ),
-    url(./assets/bgr.jpg);
+    url(./assets/bgr.jpg); */
   background-image: linear-gradient(
       rgba(18, 17, 18, 0.8),
       rgba(78, 75, 75, 0.8)

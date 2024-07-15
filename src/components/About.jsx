@@ -21,10 +21,10 @@ export default function About() {
           minima, at cum voluptates nesciunt ducimus.
         </p>
         <div>
-          <button className="lg:px-16 px-10 py-2 border-none bg-violet-500 text-white text-md mr-5  ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
+          <button className="lg:px-16 px-10 py-2 border-none bg-violet-500 text-white text-md mr-5  ease-in-out hover:-translate-y-1 hover:scale-100 duration-300">
             Hire Me
           </button>
-          <button className="hover:bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:text-white  hover:-translate-y-1 hover:scale-110  duration-300 ease-in-out lg:px-8 px-4 py-2 border border-violet-500  text-black text-md mr-5">
+          <button className="hover:bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:text-white  hover:-translate-y-1 hover:scale-70  duration-300 ease-in-out lg:px-8 px-4 py-2 border border-violet-500  text-black text-md mr-5">
             Download CV
           </button>
         </div>
