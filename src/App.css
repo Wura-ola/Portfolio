@@ -28,8 +28,8 @@ a {
   transition: font-size 0.3s ease-in;
 }
 a:hover {
-  font-size: 18px; /* Increase font size on hover */
-  transition: font-size 0.3s ease-out;
+  /* font-size: 18px; Increase font size on hover */
+  transition: font-size 9s ease-out;
 }
 button {
   transition: ease-in 0.3s;
@@ -51,18 +51,25 @@ li {
     display: block;
     /* margin: 4rem; */
   }
-  ul {
-    width: 100%;
-    /* display: flex; */
+  .mobile_menu.is-open {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
 
-    position: absolute;
     color: white;
-    margin-left: -56rem;
-    backdrop-filter: blur(200.2666589355px);
+
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: hsla(0, 0%, 6%, 0.2);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    width: 80%;
+    height: 100%;
+    padding: 6rem 3rem 0;
+    transition: right 0.4s;
   }
   a {
     font-size: 10px;
