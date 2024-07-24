@@ -16,7 +16,7 @@ export default function Contact() {
         <div>
           <p className="my-3 ">
             <span className="text-fuchsia-500 mr-3">Phone:</span>
-            07065564902
+            08034651702
           </p>
           <p className="my-3 ">
             <span className="text-fuchsia-500 mr-3">Address:</span>

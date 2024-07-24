@@ -12,21 +12,34 @@ export default function About() {
         <h2 className="mb-6 text-xl"> About Me</h2>
         <hr className="h-px my-8 bg-violet-500 border-0" />
         <p className="mb-6 lg:text-start text-12">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga aut
-          dicta ad sit repudiandae reiciendis explicabo cupiditate, obcaecati
-          quam nostrum sapiente culpa labore repellat voluptatibus esse laborum,
-          nesciunt dolorum exercitationem minus, in quia? Eligendi aspernatur
-          error voluptatum, quo quisquam nulla maiores animi quaerat incidunt.
-          Animi delectus esse eaque sunt expedita, magnam iure atque voluptatem
-          minima, at cum voluptates nesciunt ducimus.
+          I'm a passionate front-end developer based in Nigeria with a love for
+          crafting beautiful and intuitive user experiences. My journey in web
+          development started with a fascination for design and the desire to
+          bring creative ideas to life through code. Over the years, I've honed
+          my skills to specialize in building responsive, user-friendly websites
+          and applications. I write languages like HTML, CSS, React JavaScript.
+          I make use of tool like Git,npm and Yarn
         </p>
         <div>
-          <button className="lg:px-16 px-10 py-2 border-none bg-violet-500 text-white text-md mr-5  ease-in-out hover:-translate-y-1 hover:scale-100 duration-300">
+          <button className="lg:px-16 px-10 py-2 border-none bg-violet-500 hover:bg-white  text-white text-md mr-5  hover:text-black hover:border hover:border-violet-500">
             Hire Me
           </button>
-          <button className="hover:bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:text-white  hover:-translate-y-1  duration-300 ease-in-out lg:px-8 px-4 py-2 border border-violet-500  text-black text-md mr-5">
-            Download CV
-          </button>
+          {/* <button className="hover:bg-gradient-to-r from-violet-500 to-fuchsia-500  hover: duration-300 hover:ease-in-out lg:px- px-14 py-2 border border-violet-500  text-black text-md mr-5 hover:text-white">
+            <a
+              href="https://github.com/Wura-ola?tab=repositories"
+              target="_blank"
+            >
+              GitHub
+            </a>
+          </button> */}
+          <a
+            href="https://github.com/Wura-ola?tab=repositories"
+            target="_blank"
+          >
+            <button className="hover:bg-gradient-to-r from-violet-500 to-fuchsia-500  hover: duration-300 hover:ease-in-out lg:px-14 px-11 py-2 border border-violet-500  text-black text-md mr-5 hover:text-white">
+              GitHub
+            </button>
+          </a>
         </div>
       </div>
     </div>
