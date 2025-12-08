@@ -1,16 +1,16 @@
 import React from "react";
-import ME from "../assets/ME.svg";
+import ME from "../assets/20231224_122139nn.jpg";
 
 export default function About() {
   return (
-    <div className="py-5 lg:px-32 p-5 lg:flex items-center text-start gap-x-48 ">
+    <div className="py-8 lg:px-32 p-5 lg:flex items-center text-start gap-x-48 ">
       <div className="flex">
         <div className=" hidden md:w-52 md:h-72 md:bg-black"></div>
         <img src={ME} alt="" className="md:-m-0 -m-34" />
       </div>
       <div id="about">
         <h2 className="mb-6 text-xl"> About Me</h2>
-        <hr className="h-px my-8 bg-violet-500 border-0" />
+        <hr className="h-px my-5 bg-violet-500 border-0" />
         <p className="mb-6 lg:text-start text-12">
           I'm a passionate front-end developer based in Nigeria with a love for
           crafting beautiful and intuitive user experiences. My journey in web

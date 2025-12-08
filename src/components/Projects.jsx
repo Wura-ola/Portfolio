@@ -17,14 +17,7 @@ function Projects() {
             <img src={Project1} alt="" />
           </a>
         </div>
-        <div className=" shadow-md">
-          <a
-            href="https://interactive-comments-section-main-five.vercel.app/"
-            target="_blank"
-          >
-            <img src={Project2} alt="" />
-          </a>
-        </div>
+       
         <div className=" shadow-md">
           <a href="https://lafiya.vercel.app/" target="_blank">
             <img src={Project3} alt="" />
