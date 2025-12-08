@@ -19,7 +19,7 @@ function Projects() {
         </div>
        
         <div className=" shadow-md">
-          <a href="https://lafiya.vercel.app/" target="_blank">
+          <a href="https://lafiya-main-1-j9v6.vercel.app/" target="_blank">
             <img src={Project3} alt="" />
           </a>
         </div>
