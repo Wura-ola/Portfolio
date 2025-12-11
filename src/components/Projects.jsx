@@ -1,6 +1,6 @@
 import React from "react";
 import Project1 from "../assets/Project1.jpg";
-import Project2 from "../assets/Project2.jpg";
+import Project2 from "../assets/mult step.jpg";
 import Project3 from "../assets/Project3.jpg";
 import Project4 from "../assets/Project4.jpg";
 import clipboard from "../assets/clipboard.jpg";
@@ -13,11 +13,17 @@ function Projects() {
 
       <div className=" grid md:grid-cols-3 gap-4">
         <div className=" shadow-md">
-          <a href="https://tdt-foods-master-master.vercel.app/" target="_blank">
-            <img src={Project1} alt="" />
+          <a href="https://multi-setup-form-page.vercel.app/" target="_blank">
+            <img src={Project2} alt="multi_step" />
           </a>
         </div>
-       
+
+        <div className=" shadow-md">
+          <a href="https://tdt-foods-master-master.vercel.app/" target="_blank">
+            <img src={Project1} alt="project 2 img" />
+          </a>
+        </div>
+
         <div className=" shadow-md">
           <a href="https://lafiya-main-1-j9v6.vercel.app/" target="_blank">
             <img src={Project3} alt="" />
