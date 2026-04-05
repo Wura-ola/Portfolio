@@ -1,4 +1,5 @@
 import React from "react";
+import apiProject from "../assets/api_project.jpg";
 import Project1 from "../assets/Project1.jpg";
 import Project2 from "../assets/mult step.jpg";
 import Project3 from "../assets/Project3.jpg";
@@ -12,6 +13,11 @@ function Projects() {
       <hr className="h-px my-4 bg-violet-500 border-0 w-1/2" />
 
       <div className=" grid md:grid-cols-3 gap-4">
+        <div className=" shadow-md">
+           <a href="https://my-first-api-project-eight.vercel.app/" target="_blank">
+            <img src={apiProject} alt="api_project" />
+          </a>
+        </div>
         <div className=" shadow-md">
           <a href="https://multi-setup-form-page.vercel.app/" target="_blank">
             <img src={Project2} alt="multi_step" />

@@ -1,5 +1,5 @@
 import React from "react";
-import ME from "../assets/20231224_122139nn.jpg";
+import ME from "../assets/Wura.jpg";
 
 export default function About() {
   return (
