@@ -1,77 +1,81 @@
 import React from "react";
-import apiProject from "../assets/api_project.jpg";
-import extention_project from "../assets/extention_project.jpg";
-import Project1 from "../assets/Project1.jpg";
-import Project2 from "../assets/mult step.jpg";
-import Project3 from "../assets/Project3.jpg";
-import Project4 from "../assets/Project4.jpg";
-import clipboard from "../assets/clipboard.jpg";
-import Project6 from "../assets/Project6.jpg";
+
+const PROJECTS = [
+  {
+    title: "API Project",
+    description:
+      "Backend-focused demo with API integration, data handling, and deployable endpoints.",
+    url: "https://my-first-api-project-eight.vercel.app/",
+  },
+  {
+    title: "Multi-Step Form",
+    description:
+      "Guided multi-page form with clear steps, validation, and a polished responsive layout.",
+    url: "https://multi-setup-form-page.vercel.app/",
+  },
+  {
+    title: "Food Ordering Experience",
+    description:
+      "Restaurant-themed interface for browsing items and exploring an order-style user flow.",
+    url: "https://tdt-foods-master-master.vercel.app/",
+  },
+  {
+    title: "Browser Extension",
+    description:
+      "Landing experience for a browser extension with feature highlights and install context.",
+    url: "https://browser-extentions-three.vercel.app/",
+  },
+  {
+    title: "Lafiya Health App",
+    description:
+      "Health-oriented web application with structured content and user-focused screens.",
+    url: "https://lafiya-main-1-j9v6.vercel.app/",
+  },
+  {
+    title: "Interactive Form App",
+    description:
+      "Form-driven interface with responsive fields, layout patterns, and submission handling.",
+    url: "https://form-seven-cyan.vercel.app/",
+  },
+  {
+    title: "Clipboard Landing Page",
+    description:
+      "Product-style landing page with sections, typography, and conversion-focused layout.",
+    url: "https://clipboard-landing-page-ebon.vercel.app/",
+  },
+  {
+    title: "Loop Studio Landing",
+    description:
+      "Media-forward landing page with strong visuals and immersive hero presentation.",
+    url: "https://loop-studio-landing-page-ten.vercel.app/",
+  },
+];
+
 function Projects() {
   return (
-    <div className="py-5 lg:px-32 px-5" id="projects">
-      <h2 className="mb-5 text-xl text-start">Recent Project</h2>
-      <hr className="h-px my-4 bg-violet-500 border-0 w-1/2" />
-
-      <div className=" grid md:grid-cols-3 gap-4">
-        <div className=" shadow-md">
-          <a
-            href="https://my-first-api-project-eight.vercel.app/"
-            target="_blank"
-          >
-            <img src={apiProject} alt="api_project" />
-          </a>
+    <section className="projects-section" id="projects">
+      <div className="projects-body">
+        <div className="projects-inner">
+          <h2 className="projects-heading">My Projects</h2>
+          <div className="projects-grid">
+            {PROJECTS.map((project) => (
+              <article key={project.url} className="project-card">
+                <h3 className="project-card-title">{project.title}</h3>
+                <p className="project-card-desc">{project.description}</p>
+                <a
+                  className="project-card-link"
+                  href={project.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Demo →
+                </a>
+              </article>
+            ))}
+          </div>
         </div>
-        <div className=" shadow-md">
-          <a href="https://multi-setup-form-page.vercel.app/" target="_blank">
-            <img src={Project2} alt="multi_step" />
-          </a>
-        </div>
-
-        <div className=" shadow-md">
-          <a href="https://tdt-foods-master-master.vercel.app/" target="_blank">
-            <img src={Project1} alt="project 2 img" />
-          </a>
-        </div>
-        <div className=" shadow-md">
-          <a
-            href="https://browser-extentions-three.vercel.app/"
-            target="_blank"
-          >
-            <img src={extention_project} alt="" />
-          </a>
-        </div>
-
-        <div className=" shadow-md">
-          <a href="https://lafiya-main-1-j9v6.vercel.app/" target="_blank">
-            <img src={Project3} alt="" />
-          </a>
-        </div>
-        <div className="mb-4 shadow-md">
-          <a href="https://form-seven-cyan.vercel.app/" target="_blank">
-            <img src={Project4} alt="" />
-          </a>
-        </div>
-        <div className="mb-4 shadow-md">
-          <a
-            href="https://clipboard-landing-page-ebon.vercel.app/"
-            target="_blank"
-          >
-            <img src={clipboard} alt="" />
-          </a>
-        </div>
-        <div className="mb-4 shadow-md">
-          <a
-            href="https://loop-studio-landing-page-ten.vercel.app/"
-            target="_blank"
-          >
-            <img src={Project6} alt="" />
-          </a>
-        </div>
-        <div></div>
-        <div></div>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -1,6 +1,8 @@
 import React from "react";
 import Hamburger from "../assets/icons8-hamburger.svg";
 import { useState } from "react";
+import SiteLogo from "./SiteLogo.jsx";
+import ThemeToggleButton from "./ThemeToggleButton.jsx";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,19 +10,16 @@ function Nav() {
     setIsOpen((open) => !open);
   };
   return (
-    <nav className=" fixed w-full bg-white flex justify-between lg:items-center lg:px-32 md:py-5  py-10 px-5 md:gap-0">
-      <div className="lg:flex   lg:justify-between lg:w-full">
-        <h1 className="text-black text-xl  ">
-          <span className="gradient-text-violet">W</span>
-          uraola.
-        </h1>
+    <nav className="site-nav fixed top-0 left-0 right-0 z-50">
+      <div className="nav-bar-inner">
+        <SiteLogo />
 
-        <li className={`mobile_menu ${isOpen ? "is-open" : ""}`}>
-          <ul className="  lg:flex  lg:items-center lg:gap-6 ">
+        <div className={`nav-bar-links mobile_menu ${isOpen ? "is-open" : ""}`}>
+          <ul className="nav-links-list">
             <li>
               <a
                 href="#"
-                className="  transition ease-in duration-300 hover:ease-out hover:text-fuchsia-500"
+                className="nav-link nav-link-active transition-colors duration-200"
               >
                 Home
               </a>
@@ -28,28 +27,43 @@ function Nav() {
             <li>
               <a
                 href="#about"
-                className="transition ease-in duration-300 hover:ease-out hover:text-fuchsia-500"
+                className="nav-link transition-colors duration-200"
               >
                 About
               </a>
             </li>
 
             <li>
-              <a href="#projects" className="hover:text-fuchsia-500">
+              <a
+                href="#projects"
+                className="nav-link transition-colors duration-200"
+              >
                 Projects
               </a>
             </li>
             <li>
-              <a href="#contact" className="hover:text-fuchsia-500">
+              <a
+                href="#contact"
+                className="nav-link transition-colors duration-200"
+              >
                 Contact Me
               </a>
             </li>
           </ul>
-        </li>
-      </div>
+        </div>
 
-      <div className="toggle_bar  ">
-        <img src={Hamburger} alt="" onClick={toggleMenu} />
+        <div className="nav-bar-end">
+          <ThemeToggleButton />
+          <button
+            type="button"
+            className="toggle_bar"
+            onClick={toggleMenu}
+            aria-expanded={isOpen}
+            aria-label="Toggle menu"
+          >
+            <img src={Hamburger} alt="" />
+          </button>
+        </div>
       </div>
     </nav>
   );
