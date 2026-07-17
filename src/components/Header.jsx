@@ -24,7 +24,7 @@ function header() {
             years, I've honed my skills to specialize in building responsive,
             user-friendly websites and applications. I write languages like
             HTML, CSS, React JavaScript. I make use of tool like Git,npm and
-            Yarn
+            Yarnh
           </p>
         </div>
         <div className="hero-image-wrap">

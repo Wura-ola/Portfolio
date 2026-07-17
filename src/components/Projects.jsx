@@ -2,6 +2,12 @@ import React from "react";
 
 const PROJECTS = [
   {
+    title: "Techgirl magic Initiative Africa",
+    description:
+      "Techgirlmagic empowers Afrian Women with digital literacy,AI, and ledership skills through tailored career and business tracks to ensure they thrive in the future workforce.",
+    url: "https://share.google/jqVTD1bIh1UuPMNK1",
+  },
+  {
     title: "API Project",
     description:
       "Backend-focused demo with API integration, data handling, and deployable endpoints.",
@@ -12,6 +18,12 @@ const PROJECTS = [
     description:
       "Guided multi-page form with clear steps, validation, and a polished responsive layout.",
     url: "https://multi-setup-form-page.vercel.app/",
+  },
+  {
+    title: "Kwik Work Landing Page",
+    description:
+      "KwikWork connects customers with trusted artisans while providing workers with jobs and financial tools.",
+    url: "https://kwik-work.vercel.app/",
   },
   {
     title: "Food Ordering Experience",
